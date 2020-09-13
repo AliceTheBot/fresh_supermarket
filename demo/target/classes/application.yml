@@ -1,0 +1,12 @@
+server:
+    port: 8090
+spring:
+    datasource:
+        username: root
+        password: 110110
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/fresh_supermarket?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    servlet:
+        multipart:
+            enabled: true
+            file-size-threshold: 0
